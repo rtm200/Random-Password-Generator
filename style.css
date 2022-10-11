@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+	background-color: #222;
+	background: url('https://source.unsplash.com/1600x900/?landscape');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.card{
+	background:#000000d0; 
+	width: 100%;
+	height: 150px;
+	max-width: 420px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	border-radius: 24px;
+}
+.content{
+	margin-top: 8px;
+}
+input{
+	outline: none;
+	border: none;
+	background:#7c7c7c2b;
+	padding: 0.5em 1em;
+	border-radius: 24px;
+	color: white;
+	transition: 0.5s;
+}
+input:hover{
+	background:#7c7c7c8b;
+}
+button.Submit{
+	font-weight: 800;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background:#7c7c7c2b;
+	padding: 0.5em 1em;
+	border-radius: 24px;
+	color: white;
+	transition: 0.5s;
+}
+button.Submit:hover{
+	background:#7c7c7c8b;
+}
+.reset{
+	justify-content: left;
+	align-items: left;
+	margin: 8px 0;
+	display: flex;
+}
+.reset p{
+	transition: .5s;
+	font-size: 20px;
+	color: white;
+	margin-left:25px;
+}
+.reset button{
+	width: 190px;
+	font-weight: 800;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background:#7c7c7c2b;
+	padding: 0.5em 1em;
+	border-radius: 24px;
+	color: white;
+	transition: 0.5s;
+}
+.reset button:hover{
+	background:#7c7c7c8b;
+}
